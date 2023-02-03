@@ -43,11 +43,11 @@ function swRegistration() {
 			});
 	}
 
-	// const text = location.search.replace('?name=', '');
-	// if (text.trim()) {
-	// 	var message = document.getElementById('message');
-	// 	message.textContent = decodeURIComponent(text.trim());
-	// }
+	const text = location.search.replace('?name=', '');
+	if (text.trim()) {
+		var message = document.getElementById('message');
+		message.textContent = decodeURIComponent(text.trim());
+	}
 }
 
 swRegistration();
